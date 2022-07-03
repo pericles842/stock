@@ -34,6 +34,8 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 .words input{
+    transition: 0.5s;
+    border:none;
     font-family: 'Roboto', sans-serif;
     padding: 5px 10px;
     background-color: var(--black);
@@ -42,3 +44,87 @@ section{
     margin: 10px 0 0 0 ;
 
 }
+.words input[type="button"]:hover{
+    cursor: pointer;
+    transition:0.5s;
+    background-color: var(--blue);
+}
+/*Section car*/
+.box-data-car{
+    display: block;
+    margin: 0 20%;
+}
+.menu-products{
+    text-align: left;
+    display:flex;
+}
+.menu-products p{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 60px;
+}
+.section-box-total{
+    display:flex;
+    margin: 20px 0;
+}
+.section-box-total p{
+    text-align:left;
+    margin:10px 50px;
+}
+.section-box-total button{
+    padding: 5px 10px;
+    background-color: #ff1b1b;
+    border :none;
+    border-radius: 3px;
+    color: var(--white);
+    transition: 0.5s;
+}
+.section-box-total button:hover{
+    background-color: #d81515;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.products{ 
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px 0;
+}
+.title{
+    margin: 0 60px ;
+}
+.item{
+    margin: 0 70px;
+}
+#negative{
+    transition: 0.5;
+    color: var(--white);
+    padding:3px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff1b1b;
+}
+#negative:hover{
+    transition: 0.5s;
+    background-color: #d81515;
+    cursor: pointer;
+}
+#positive{
+    transition: 0.5s;
+    color: var(--white);
+    padding:3px 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--blue);
+}
+#positive:hover{
+    cursor: pointer;
+    transition:0.5s;
+    background-color: #2626c7;
+}
+.buttons{
+    margin: 0 105px ;
+}
+.total{
+    margin: 0 10px;
+}
+

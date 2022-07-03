@@ -51,9 +51,9 @@
                 <div class="box-images">
                     <img class="img" src="./assets/style/images/herramientas.jpg" alt="imagen de prueba">
                 </div>
-                <div>
-                    <h3>Kit de herramientas</h3>
-                    <p>30%</p>
+                <div class="words">
+                    <h3> Herramientas</h3>
+                    <p>70$</p>
                     <input id="buy-tool" type="button" value="Comprar">
                 </div>
             </div>
@@ -61,8 +61,75 @@
                 <div class="box-images">
                     <img class="img" src="./assets/style/images/laptop.jpg" alt="imagen de prueba">
                 </div>
-                <div>
-                    <h1>contenido</h1>
+                <div class="words">
+                    <h3>Laptop</h3>
+                    <p>300$</p>
+                    <input id="buy-laptop" type="button" value="Comprar">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--datos de carrito-->
+    <section>
+        <div class="box-data-car">
+             <h1>Carrito de compras</h1>
+            <div class="box-car">
+                <div class="menu-products">
+                   <p>Producto</p>
+                   <p>Cantidad</p>
+                   <p>Accion</p>
+                   <p>Total</p>
+                </div>
+                <div class="products">
+                    <p class="title">Franela</p>
+                    <p class="item">0</p> 
+                    <div class="buttons">
+                        <button id="positive">+</button>
+                        <button id="negative">-</button>
+                    </div>
+                    <p class="total">$0</p>
+                </div>
+                <div class="products">
+                    <p class="title">Franela</p>
+                    <p class="item">0</p> 
+                    <div class="buttons">
+                        <button id="positive">+</button>
+                        <button id="negative">-</button>
+                    </div>
+                    <p class="total">$0</p>
+                </div>
+                <div class="products">
+                    <p class="title">Franela</p>
+                    <p class="item">0</p> 
+                    <div class="buttons">
+                        <button id="positive">+</button>
+                        <button id="negative">-</button>
+                    </div>
+                    <p class="total">$0</p>
+                </div>
+                <div class="products">
+                    <p class="title">Franela</p>
+                    <p class="item">0</p> 
+                    <div class="buttons">
+                        <button id="positive">+</button>
+                        <button id="negative">-</button>
+                    </div>
+                    <p class="total">$0</p>
+                </div>
+                <div class="products">
+                    <p class="title">Franela</p>
+                    <p class="item">0</p> 
+                    <div class="buttons">
+                        <button id="positive">+</button>
+                        <button id="negative">-</button>
+                    </div>
+                    <p class="total">$0</p>
+                </div>
+                <div class="section-box-total">
+                    <h2>Productos totales</h2>
+                    <p>0</p>
+                    <p><button>Vaciar carro</button></p>
+                    <p> $0</p>
                 </div>
             </div>
         </div>

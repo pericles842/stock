@@ -18,10 +18,10 @@
                 <img src="./assets/style/images/car.png" alt="Carro de compras">
             </div>
             <div class="num-box">
-                <p id="num">1</p>
+                <p id="num">0</p>
             </div>
         </div>
     </header>
-    <script src="./assets/model/shopping_cart.js"></script>
+    <script src="/nav_system/assets/model/main.js"></script>
 </body>
 </html>
