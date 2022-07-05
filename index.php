@@ -71,7 +71,7 @@
     </section>
     <!--datos de carrito-->
     <section>
-        <div class="box-data-car">
+        <div id="box-data-car" class="box-data-car" style="display:none;">
              <h1>Carrito de compras</h1>
             <div class="box-car">
                 <div class="menu-products">
@@ -80,44 +80,44 @@
                    <p>Accion</p>
                    <p>Total</p>
                 </div>
-                <div class="products">
+                <div id="product-shirt" class="products" style="display:none;">
                     <p class="title">Franela</p>
-                    <p class="item">0</p> 
+                    <p class="item" id="product-total">0</p> 
                     <div class="buttons">
                         <button id="positive">+</button>
                         <button id="negative">-</button>
                     </div>
-                    <p class="total">$0</p>
+                    <p class="total" id="money-total">$0</p>
                 </div>
-                <div class="products">
-                    <p class="title">Franela</p>
-                    <p class="item">0</p> 
-                    <div class="buttons">
+                <div id="product-bag" class="products" style="display:none;">
+                    <p class="titledos">Bolso de cuero</p>
+                    <p class="itemdos">0</p> 
+                    <div class="buttonsdos">
                         <button id="positive">+</button>
                         <button id="negative">-</button>
                     </div>
-                    <p class="total">$0</p>
+                    <p class="totaldos">$0</p>
                 </div>
-                <div class="products">
-                    <p class="title">Franela</p>
-                    <p class="item">0</p> 
-                    <div class="buttons">
+                <div id="product-headphones" class="products" style="display:none;">
+                    <p class="titletres">Audifonos</p>
+                    <p class="itemtres">0</p> 
+                    <div class="buttonstres">
                         <button id="positive">+</button>
                         <button id="negative">-</button>
                     </div>
-                    <p class="total">$0</p>
+                    <p class="totaltres">$0</p>
                 </div>
-                <div class="products">
-                    <p class="title">Franela</p>
-                    <p class="item">0</p> 
-                    <div class="buttons">
+                <div id="product-tool" class="products" style="display:none;">
+                    <p class="titlecuatro">Herramientas</p>
+                    <p class="itemcuatro">0</p> 
+                    <div class="buttonscuatro">
                         <button id="positive">+</button>
                         <button id="negative">-</button>
                     </div>
-                    <p class="total">$0</p>
+                    <p class="totalcuatro">$0</p>
                 </div>
-                <div class="products">
-                    <p class="title">Franela</p>
+                <div id="product-laptop" class="products" style="display:none;">
+                    <p class="title">Laptop</p>
                     <p class="item">0</p> 
                     <div class="buttons">
                         <button id="positive">+</button>
@@ -134,5 +134,6 @@
             </div>
         </div>
     </section>
+    <script src="main.js"></script>
 </body>
 </html>

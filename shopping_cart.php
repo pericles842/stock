@@ -15,13 +15,13 @@
         <div class="box-header">
             <h1>Stock v1.0</h1>
             <div class="box-image">
-                <img src="./assets/style/images/car.png" alt="Carro de compras">
+                <img id="car" src="./assets/style/images/car.png" alt="Carro de compras">
             </div>
-            <div class="num-box">
+            <div  id="num-box-id" style="display:none;">
                 <p id="num">0</p>
             </div>
         </div>
     </header>
-    <script src="/nav_system/assets/model/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

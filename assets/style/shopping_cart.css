@@ -6,7 +6,7 @@
     --black :#1d1a1a;
     --white:#f8f8f8;
     --blue:#2c2ce7;
-    --green:#61e0ab;
+    --green:#14f126;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -27,6 +27,6 @@
 .box-image{
     margin: 0 0 0 70%;
 }
-.num-box{
-    display: none;
+#car:hover{
+    cursor: pointer;
 }

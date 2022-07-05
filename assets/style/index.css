@@ -92,8 +92,35 @@ section{
 .title{
     margin: 0 60px ;
 }
+.titledos{
+    margin: 0 80px 0 60px;
+}
+.titletres{
+    margin: 0 110px 0 60px;
+}
+.titlecuatro{
+    margin:0 85px 0 60px;
+}
 .item{
     margin: 0 70px;
+}
+.itemdos{
+    margin:  0 172px 0 0;
+}
+.itemtres{
+    margin:0 173px 0 0;
+}
+.itemcuatro{
+    margin:0 174px 0 0;
+}
+.buttonsdos{
+    margin:0 115px 0 0;
+}
+.buttonstres{
+    margin:0 115px 0 0;
+}
+.buttonscuatro{
+    margin:0 115px 0 0 ;
 }
 #negative{
     transition: 0.5;
